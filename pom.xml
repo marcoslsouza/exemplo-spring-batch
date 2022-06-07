@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.github.marcoslsouza</groupId>
-	<artifactId>marcoslsouza</artifactId>
+	<artifactId>spring-batch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>marcoslsouza</name>
 	<description>Exemplo com spring batch</description>
@@ -42,12 +42,6 @@
 			<artifactId>spring-batch-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-	      <groupId>org.postgresql</groupId>
-	      <artifactId>postgresql</artifactId>
-	      <scope>runtime</scope>
-	    </dependency>
 	</dependencies>
 
 	<build>
